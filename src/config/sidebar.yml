@@ -1,0 +1,18 @@
+# Sidebar navigation
+
+- label: 'Introduction'
+  link: '/'
+- label: 'Getting started'
+  link: '/getting-started'
+- label: Usage
+  items:
+    - label: 'Creating docs'
+      link: '/usage/creating-docs'
+    - label: 'Navigation'
+      link: '/usage/navigation'
+- label: More
+  items:
+    - label: 'Github Repo'
+      link: https://github.com/chrislevinecentric/chrislevinecentric.github.io
+    - label: 'TeamCentral.io'
+      link: https://teamcentral.io
