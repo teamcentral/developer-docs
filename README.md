@@ -1,44 +1,18 @@
-Make sure Gatsby CLI is installed
-```sh
-npm install -g gatsby-cli
+Advanced developer documentation for TeamCentral.
+
+To build locally, install the Gatsby Cli 
+```
+(npm install -g gatsby-cli)
 ```
 
-## Set Up
-1. Clone the repo.
+Next clone and install repo dependencies
+```
+npx gatsby new central-docs https://github.com/teamcentral/developer-docs.git
+```
 
-   ```sh
-   npx gatsby new central-docs https://github.com/chrislevinecentric/chrislevinecentric.github.io
-   ```
+Lastly, cd into the repo ```cd central-docs```
 
-2. Init your GitHub Repo
-   
-   ```sh
-   Commands that GitHub give you
-   ```
-   
-3. Set up custom domain on your repo
-
-   ```sh
-   Repo > Settings > GitHub Pages > Custom Domain > docs.teamcentral.io
-   Note: DNS records already in place just waiting for that CNAME
-   ```
-
-4. Start developing.
-
-   ```sh
-   cd central-docs
-   gatsby develop
-   ```
-   
-5. Once ready to push run:
-  
-   ```sh
-   npm run deploy
-   ```
-  
-## Maintance
-1. Keeping code up to date
-
-   ```sh
-   npm update
-   ```
+To push to GitHub (this will build the local files for static use and upload them to Github to be served by Github pages.
+```
+npm run deploy
+```
