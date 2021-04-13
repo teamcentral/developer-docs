@@ -2,12 +2,12 @@ Advanced developer documentation for TeamCentral.
 
 To build locally, install the Gatsby Cli 
 ```
-(npm install -g gatsby-cli)
+npm install -g gatsby-cli
 ```
 
 Next clone and install repo dependencies
 ```
-npx gatsby new central-docs https://github.com/teamcentral/developer-docs.git
+npx gatsby new team-central-docs https://github.com/teamcentral/developer-docs.git
 ```
 
 Lastly, cd into the repo ```cd central-docs```
