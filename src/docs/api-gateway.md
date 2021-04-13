@@ -33,3 +33,8 @@ RESPONSE
  
 
 Step 3 – For all of the routes you must include an Authorization Header with the value ``` “Bearer {Access Token}” ```
+
+## Routes/Entities
+
+## Webhooks
+Central supports sending messages in for integration via webhooks. 

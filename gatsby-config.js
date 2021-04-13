@@ -9,8 +9,9 @@ module.exports = {
     siteImage: `static/banner.jpg`,
     siteLanguage: `en`,
     themeColor: `#8257E6`,
-    basePath: `/developer-docs`,
+    basePath: `/`,
   },
+
   flags: { PRESERVE_WEBPACK_CACHE: true },
   plugins: [
     {
