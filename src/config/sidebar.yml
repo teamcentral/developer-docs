@@ -1,0 +1,18 @@
+# Sidebar navigation
+
+- label: 'Introduction'
+  link: '/'
+- label: Usage
+  items:
+    - label: 'API Gateway'
+      link: 'api-gateway'
+    - label: 'Routes/ Entities'
+      link: 'routes-entities'
+    - label: 'Webhooks'
+      link: 'webhooks'
+    - label: 'Custom Connectors'
+      link: 'custom-connectors'
+- label: More
+  items:
+    - label: 'TeamCentral.io'
+      link: https://www.teamcentral.io
