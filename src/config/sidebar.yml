@@ -2,17 +2,17 @@
 
 - label: 'Introduction'
   link: '/'
-- label: 'Getting started'
-  link: '/getting-started'
 - label: Usage
   items:
-    - label: 'Creating docs'
-      link: '/usage/creating-docs'
-    - label: 'Navigation'
-      link: '/usage/navigation'
+    - label: 'API Gateway'
+      link: 'api-gateway'
+    - label: 'Routes/ Entities'
+      link: 'routes-entities'
+    - label: 'Webhooks'
+      link: 'webhooks'
+    - label: 'Custom Connectors'
+      link: 'custom-connectors'
 - label: More
   items:
-    - label: 'Github Repo'
-      link: https://github.com/chrislevinecentric/chrislevinecentric.github.io
     - label: 'TeamCentral.io'
-      link: https://teamcentral.io
+      link: https://www.teamcentral.io

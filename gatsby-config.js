@@ -18,7 +18,7 @@ module.exports = {
       options: {
         configPath: `src/config`,
         docsPath: `src/docs`,
-        repositoryUrl: `https://github.com/chrislevinecentric/chrislevinecentric.github.io`,
+        repositoryUrl: `https://github.com/teamcentral/developer-docs`,
       },
     },
     {
