@@ -12,7 +12,10 @@ module.exports = {
     basePath: `/`,
   },
 
-  flags: { PRESERVE_WEBPACK_CACHE: true },
+  flags: { 
+  PRESERVE_WEBPACK_CACHE: true,
+  FAST_DEV: true
+ },
   plugins: [
     {
       resolve: `@rocketseat/gatsby-theme-docs`,
