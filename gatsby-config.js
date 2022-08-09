@@ -3,9 +3,9 @@ module.exports = {
     siteTitle: `Team Central Docs`,
     defaultTitle: `Team Central Docs`,
     siteTitleShort: `Team Central Docs`,
-    siteDescription: `Documentation for TeamCentral.ai`,
-    siteUrl: `https://docs.teamcentral.ai`,
-    siteAuthor: `@teamcentral.ai`,
+    siteDescription: `Documentation for TeamCentral.io`,
+    siteUrl: `https://docs.teamcentral.io`,
+    siteAuthor: `@teamcentral.io`,
     siteImage: `static/banner.jpg`,
     siteLanguage: `en`,
     themeColor: `#8257E6`,
@@ -14,8 +14,8 @@ module.exports = {
 
   flags: { 
   PRESERVE_WEBPACK_CACHE: true,
-  FAST_DEV: false,
-  FAST_REFRESH: false
+  FAST_DEV: true,
+  DEV_SSR: false
  },
   plugins: [
     {
