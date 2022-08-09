@@ -15,7 +15,7 @@ npm install
 ```
 3. Run
 ```sh
-gatsby develop --open
+npm run start
 ```
 
 

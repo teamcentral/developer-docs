@@ -24,9 +24,7 @@
   },
   "scripts": {
     "build": "gatsby build",
-    "start": "gatsby develop",
-    "serve": "gatsby serve",
-    "clean": "gatsby clean",
-    "deploy": "gatsby build && gh-pages -d public"
+    "start": "gatsby clean && gatsby develop",
+    "serve": "gatsby serve"
   }
 }

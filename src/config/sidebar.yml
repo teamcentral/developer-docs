@@ -8,3 +8,7 @@
       link: 'api-gateway'
     - label: 'Custom Connectors'
       link: 'custom-connectors'
+- label: 'More'
+  items:
+    - label: 'TeamCentral.ai'
+      link: 'https://teamcentral.ai'
